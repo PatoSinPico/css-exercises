@@ -2,9 +2,32 @@ body {
   font-family: 'Courier New', Courier, monospace;
 }
 
+.Header{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+.TxtandImage{
+flex-basis: 200px;
+}
+
+.Body{
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
 img {
   width: 100px;
   height: 100px;
+  display: flex;
+  justify-self: center;
+  
+}
+
+.text{
+  text-align: center;
+  margin-top: 5px;
 }
 
 .title {
